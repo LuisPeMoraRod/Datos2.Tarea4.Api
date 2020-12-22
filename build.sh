@@ -1,8 +1,7 @@
 echo "1/3 Installing dependencies..."
 npm install
-npm init -y
 npm install express body-parser cors mongoose --save
-npm install nodemon --save-dev
+npm install -g nodemon
 
 echo "2/3 Packing application into docker image..."
 docker build . -t luispedromorales/users-crud-api:latest
