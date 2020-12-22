@@ -1,6 +1,6 @@
 # Backend
 
-Api for the users CRUD application. Download image from DockerHub by hitting:
+Api for the users CRUD application. It was built using Node and Express, and connects to a dababase in Mongo. Download image from DockerHub by hitting:
 
 ### `docker pull luispedromorales/users-crud-api`
 
